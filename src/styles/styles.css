@@ -8,7 +8,11 @@
 }
 
 body{
-    background-color: #fff9ea;
+    background-color: #F2F2F2;
+}
+
+section {
+    padding: 28px 8%
 }
 
 .btn-default {
@@ -16,7 +20,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ffcb45;
+    background-color: #447EF2;
     border-radius: 12px;
     padding: 10px 13px;
     font-weight: 600;
@@ -26,5 +30,23 @@ body{
 }
 
 .btn-default:hover {
-    background-color: #f8d477;
+    background-color: #88ABF2;
+}
+
+.social-media-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.social-media-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 50px;
+    background-color: #ffffff;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #00008B;
 }

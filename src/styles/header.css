@@ -28,7 +28,7 @@ header {
 }
 
 .nav-item.active a {
-    color: #1d1d1dad;
+    color: #1d1d1d;
     border-bottom: 3px solid #00008B;
 }
 
@@ -42,9 +42,10 @@ header {
 
 @media screen and (max-width: 1170px) {
     #nav_list,
-    #navbar .brn-default {
+    #navbar .btn-default {
         display: none;
     }
+
     #mobile_btn{
         display: block;
         border: none;

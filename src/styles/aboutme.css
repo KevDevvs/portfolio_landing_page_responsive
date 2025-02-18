@@ -63,6 +63,7 @@
     display: flex;
     gap: 10px;
     align-items: center;
+    font-size: 0.9rem;
 }
 
 @media screen and (max-width: 1170px) {

@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="src/styles/styles.css">
-    <link rel="stylesheet" href="src/styles/header.css">
-    <link rel="stylesheet" href="src/styles/home.css">
-    <link rel="stylesheet" href="src/styles/projects.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <title>KevDev</title>
 
 </head>
@@ -219,16 +218,74 @@
             </div>
         </section>
         <section id="aboutme">
-            <img src="" alt="">
+            <img src="src/images/avatar do linkedin.jpeg" id="aboutme_image" alt="">
             <div class="aboutme_content">
                 <h2 class="section-title">
                     Sobre Mim
                 </h2>
-                <h3 class="section-subtitle"></h3>
+                <h3 class="section-subtitle">
+                    Nessa seção você pode saber mais sobre mim!
+                </h3>
+                <div id="textofmes">
+                    <div class="textofme">
+                        <img src="src/images/avatar do linkedin.jpeg" class="textofme-avatar" alt="">
+
+                        <div class="textofme-content">
+                            <br>
+                            <p id="myname">
+                                Keven Alves da Silva
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <br>
+                            <p>
+                                Olá! Tenho 23 anos e sou Desenvolvedor de RPA em uma empresa de RH, atualmente utilizo Python como minha principal linguagem.
+                            </p>
+                            <br>
+                            <p>
+                                Além do trabalho formal com RPA, também atuo como freelancer FullStack, assim consigo me desenvolver aprendendo novas tecnologias durante os projetos. O plano é me aprofundar em outras linguagens enquanto crio soluções para problemas reais.
+                            </p>
+                            <br>
+                            <p>
+                                Gosto muito de arte e psicologia, tento trazer esses dois mundos pra dentro da Tecnogia, com visuais inesperados e soluções pensadas com o maximo de UX.
+                            </p>
+                            <br>
+                        </div>
+
+                    </div>
+                    <button class="btn-default">
+                        Baixar CV!
+                    </button>
+                </div>
             </div>
         </section>
-
     </main>
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2025 Keven Silva
+            </span>
+            
+            <div class="social-media-buttons">
+                <a href="https://www.linkedin.com/in/silvakeven/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/KevDevvs" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="http://wa.me/5511954217969" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>   
+            </div>  
+    </footer>
+
     <script src="src/javascript/script.js"></script>
 </body>
 

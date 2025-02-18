@@ -10,6 +10,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 24px;
     margin-top: 32px;
 }
@@ -21,9 +22,9 @@
     text-align: center;
     border-radius: 20px;
     gap: 18px;
-    width: 25%;
+    width: 40%;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: var(--color-primary-6);
     box-shadow: 0px 0px 12px 4px rgba(0 , 0, 0, 0.1);
     position: relative;
     overflow: hidden;
@@ -35,7 +36,7 @@
 
 .dish-heart {
     position: absolute;
-    background-color: #00008B;
+    background-color: var(--color-primary-2);
     display: flex;
     align-items: center;
     justify-content: center;

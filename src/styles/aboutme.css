@@ -48,7 +48,7 @@
 }
 
 .textofme-content p span{
-    color: #e9a209;
+    color: var(--color-primary-2);
 }
 
 .textofme-content #myname{

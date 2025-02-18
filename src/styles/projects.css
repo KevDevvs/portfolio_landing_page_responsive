@@ -49,19 +49,41 @@
     border-radius: 0px 37.5px 0px 42.5px;
 }
 
+.dish-here {
+    position: absolute;
+    background-color: var(--color-primary-2);
+    display: block;
+    align-items: center;
+    justify-content: center;
+    color: #fff9ea;
+    font-size: 1.0rem;
+    top: -5px;
+    right: 50px;
+    border-radius: 20px 0px 0px 20px;
+    padding: 10px 13px;
+}
+
 .dish-description {
     color: #434343;
     text-align: center;
 }
 
-.dish-rate {
-    color: #e9a209
-}
-
-.dish-price {
+.dish-tecs-title {
     display: flex;
     align-items: center;
-    gap: 20px
+    gap: 20px;
+    font-weight: 550;
+}
+.dish-tecs {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+.dish-tecs img{
+    align-items: center;
+    width: 70%;
 }
 
 @media screen and (max-width: 1170px) {

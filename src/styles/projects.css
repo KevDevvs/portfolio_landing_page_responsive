@@ -30,8 +30,14 @@
     overflow: hidden;
 }
 
-.dish img {
+
+.dish-image{
     width: 100%;
+    height: 50%;
+}
+
+.dish-image img{
+    width: 90%;
 }
 
 .dish-heart {

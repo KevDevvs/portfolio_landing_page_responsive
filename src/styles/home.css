@@ -46,7 +46,7 @@
 }
 
 #cta_buttons a:hover {
-    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 12px 10px rgba(0, 0, 0, 0.1);
 }
 
 #phone_button {
@@ -57,18 +57,29 @@
     padding: 10px 30%;
     font-weight: 500;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
+    border-radius: 5px;
     justify-content: center;
     white-space: nowrap;
     
 }
 
 #logos {
+    border-color: var(--color-primary-2);
+    background-color: var(--color-primary-6);
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    left: 4px;
+    left: 0px;
+    width: 15%;
+    height: 45px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#copy_logo {
+    position: absolute;
+    right: 20px;
+    font-size: 15px;
 }
 
 #home .social-media-buttons {
@@ -116,9 +127,9 @@
     }
 
     #cta {
+        display: flex;
         width: 100%;
         text-align: center;
-        align-items: center;
     }
 }
 

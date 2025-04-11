@@ -85,11 +85,16 @@
     display: flex;
     justify-content: center;
     gap: 14px;
+    transition: box-shadow .3s ease;
 }
 
 .dish-tecs img{
     align-items: center;
     width: 70%;
+}
+
+.dish-tecs :hover {
+    box-shadow: 0px 0px 6px 4px rgba(207, 191, 191, 0.1);
 }
 
 @media screen and (max-width: 1170px) {

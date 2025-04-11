@@ -4,6 +4,7 @@ $(document).ready(function(){
         $('#mobile_btn').find('i').toggleClass('fa-x');
     });
 
+
     const sections = $('section');
     const navItems = $('.nav-item');
 

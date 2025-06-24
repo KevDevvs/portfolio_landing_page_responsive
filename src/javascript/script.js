@@ -41,7 +41,7 @@ $(document).ready(function(){
         distance: '20%'
     });
 
-    ScrollReveal().reveal('.dish', {
+    ScrollReveal().reveal('#container', {
         origin: 'left',
         duration: 2000,
         distance: '20%'
@@ -59,5 +59,29 @@ $(document).ready(function(){
         distance: '20%'
     })
 
+    const tabs = document.querySelectorAll('.tab-btn');
+
+    tabs.forEach(tab => tab.addEventListener('click', () => tabClicked(tab)));
+
+    const tabClicked = (tab) => {
+        tabs.forEach(tab => tab.classList.remove('active'));
+        tab.classList.add('active')
+
+        const content = document.querySelectorAll('.dishes');
+        content.forEach(dishes => dishes.classList.remove('show'));
+
+        const dishId = tab.getAttribute('content-id');
+        const dishes = document.getElementById(dishId);
+
+        dishes.classList.add('show');
+
+        console.log(tab);
+        console.log(dishes);
+    }
+
+    const currentActiveTab = document.querySelector('.tab-btn.active');
+    tabClicked(currentActiveTab);
+
 });
+
 

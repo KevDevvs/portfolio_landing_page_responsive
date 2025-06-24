@@ -6,14 +6,56 @@
     min-height: 100vh;
 }
 
-#dishes {
+#container{
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;    
+}
+
+.tab-buttons {
+    display: flex;
+    gap: 6px;
+}
+
+.tab-btn {
+    width: 100%;
+    border: none;
+    color: var(--color-primary-3);
+    background-color: var(--color-primary-1);
+    border-radius: 8px 8px 0px 0px;
+    font-weight: 500;
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color .3 ease;
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+
+.tab-btn.active {
+    color: var(--color-primary-3);
+    background-color: var(--color-primary-6);
+}
+
+.tab-btn:hover {
+    background-color: var(--color-primary-5)
+}
+
+.dishes{
+    display: none;
+}
+
+.dishes.show{
+    display: flex;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 24px;
-    margin-top: 32px;
+    gap: 44px;
+    padding: 32px;
+    background-color: var(--color-primary-6);
+    border-radius: 0px 0px 8px 8px;
 }
+
 
 .dish {
     display: flex;
@@ -25,11 +67,10 @@
     width: 40%;
     padding: 20px;
     background-color: var(--color-primary-6);
-    box-shadow: 0px 0px 12px 4px rgba(0 , 0, 0, 0.1);
+    box-shadow: 0px 0px 8px 4px rgba(0 , 0, 0, 0.1);
     position: relative;
     overflow: hidden;
 }
-
 
 .dish-image{
     width: 100%;
@@ -103,13 +144,18 @@
         justify-content: center;
     }
 
-    .dish {
+    .dish.show {
         width: calc(50% - 12px)
+    }
+
+    .dishes-buttons{
+        flex-wrap: nowrap;
+        text-align: justify;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .dish {
+    .dish.show {
         width: 100%
     }
 

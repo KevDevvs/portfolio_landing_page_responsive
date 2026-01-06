@@ -122,16 +122,16 @@
     font-weight: 550;
 }
 .dish-tecs {
-    width: 15%;
+    width: 12%;
     display: flex;
     justify-content: center;
-    gap: 14px;
+    gap: 15px;
     transition: box-shadow .3s ease;
 }
 
 .dish-tecs img{
     align-items: center;
-    width: 70%;
+    width: 100%;
 }
 
 .dish-tecs :hover {

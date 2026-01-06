@@ -161,9 +161,14 @@
 
     #projects .section-subtitle {
         text-align: center;
+        font-size: 1.5rem;
     }
 
     .dish{
     width: 100%;
+    }
+
+    #container{
+        padding: 1px;
     }
 }

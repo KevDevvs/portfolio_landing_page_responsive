@@ -104,7 +104,8 @@
 @media screen and (max-width: 600px) {
     
     #aboutme .section-subtitle{
-        font-size: 2rem;
+        font-size: 1rem;
+        text-align: center;
     }
 
     #aboutme_content{
@@ -113,5 +114,9 @@
 
     .textofme {
         flex-direction: column;
+    }
+
+    #aboutme .section-title{
+        text-align: center;
     }
 }
